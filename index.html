@@ -4,33 +4,53 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- секція з лого, навігацією та електронною адресою -->
-    <header>
+    <header class="header">
       <!-- navigation -->
-      <nav>
+      <nav class="header-nav">
         <!-- logo -->
-        <a href="./index.html">WebStudio</a>
-        <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contacts</a></li>
+        <a href="./index.html" class="logo"
+          ><span class="logo-span">Web</span>Studio</a
+        >
+        <ul class="nav-menu">
+          <li><a href="" class="nav-menu-item">Studio</a></li>
+          <li><a href="" class="nav-menu-item">Portfolio</a></li>
+          <li><a href="" class="nav-menu-item">Contacts</a></li>
         </ul>
       </nav>
       <!-- contacts -->
       <address>
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+        <ul class="address-list">
+          <li>
+            <a href="mailto:info@devstudio.com" class="address-list-item"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+110001111111" class="address-list-item"
+              >+11 (000) 111-11-11</a
+            >
+          </li>
         </ul>
       </address>
     </header>
 
     <main>
       <!-- Секція з кнопкою -->
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
+      <section class="hero-section">
+        <h1 class="hero-section-title">
+          Effective Solutions for Your Business
+        </h1>
         <button type="button">Order Service</button>
       </section>
       <!-- секція features -->
@@ -100,6 +120,86 @@
             />
             <h3>Daniel Wilson</h3>
             <p>UI Designer</p>
+          </li>
+        </ul>
+      </section>
+      <!-- Portfolio section -->
+      <section>
+        <h2>Our Portfolio</h2>
+        <ul>
+          <!-- Row 1 -->
+          <li>
+            <a href="">
+              <img
+                src="./images/banking.jpg"
+                alt="Banking App screen"
+                width="360"
+                height="300"
+              />
+              <h3>Banking App</h3>
+              <p>App</p>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img
+                src="./images/payment.jpg"
+                alt="Cashless payment app screen"
+                width="360"
+                height="300"
+              />
+              <h3>Cashless Payment</h3>
+              <p>Marketing</p>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img
+                src="./images/meditation.jpg"
+                alt="Meditation app screen"
+                width="360"
+                height="300"
+              />
+              <h3>Meditation App</h3>
+              <p>App</p>
+            </a>
+          </li>
+          <!-- Row 2 -->
+          <li>
+            <a href="">
+              <img
+                src="./images/taxi.jpg"
+                alt="Taxi service app screen"
+                width="360"
+                height="300"
+              />
+              <h3>Taxi Service</h3>
+              <p>Marketing</p>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img
+                src="./images/illustrations.jpg"
+                alt="Screen illustrations app screen"
+                width="360"
+                height="300"
+              />
+              <h3>Screen Illustrations</h3>
+              <p>Design</p>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img
+                src="./images/courses.jpg"
+                alt="Online courses app screen"
+                width="360"
+                height="300"
+              />
+              <h3>Online Courses</h3>
+              <p>Marketing</p>
+            </a>
           </li>
         </ul>
       </section>

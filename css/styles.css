@@ -67,7 +67,7 @@ font-style: normal;
 }
 .hero-section-title {
     color: #FFF;
-    text-align: center;
+    /* text-align: center; */
     font-size: 56px;
     font-weight: 700;
     line-height: 107.143%;
@@ -115,7 +115,7 @@ font-style: normal;
     background-color: #F4F4FD;
 }
 .team-section-title{
-    text-align: center;
+    /* text-align: center; */
     font-size: 36px;
     font-weight: 700;
     line-height: 111.111%;
